@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'GowunBatang-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+        font-family: 'GowunBatang-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #F0E4CF;}
+
+body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
+
+/*header*/
+
+#header{width: 100%; height: 100px; background-color: #583C31;}
+.header_inner{width: 1320px; height: 100%; margin: 0 auto; text-align: center; position: relative;}
+.nav{height: 100%; position: absolute; left: 50%; margin-left: -544.315px; font-size: 20px;}
+.nav li{float: left;}
+.nav li a{display: block; padding: 30px 90px;}
+.nav li:first-child a{padding: 30px 90px 30px 0px;}
+.nav li:last-child a{padding: 30px 0px 30px 90px;}
+.nav li:nth-child(3) a{padding: 12px 75px;}
+.nav li a:hover{color: #F0C599;}
+
+
+/*banner*/
+
+#banner{width: 100%; height: 510px; background: gray;}
+
+
+/*contents*/
+#contents{width: 100%; height: 3700px; background: url(../images/main-bg.jpg) no-repeat center top;}
+
+.title{text-align: center; padding-top: 150px; padding-bottom: 150px; color: #583C31; font-size: 30px;}
+
+.morebtn{font-size: 18px;}
+.morebtn a{color: #583C31;}
+.morebtn:hover a{color: #583c3193;}
+
+/*bread s*/
+.bread{width: 1320px; margin: 0 auto;}
+.bread_banner{width: 1320px; height: 269px; background: url(../images/bread.jpg) no-repeat center top; padding: 60px; box-sizing: border-box; color: #583C31;}
+.bread_banner h1{font-size: 55px; text-align: left; padding:20px 0px 45px;}
+.bread_banner p{font-size: 22px; text-align: left;}
+
+.morebtn{width: 100%; height: 60px; padding: 15px; box-sizing: border-box; text-align: right;}
+
+.bread_product1{width: 1320px; height: 300px; padding: 0px 20px; box-sizing: border-box; padding-top: 35px;}
+.bread_product1 li{float: left; width: 190px; height: 240px; text-align: center; padding-right: 81px;}
+.bread_product1 li:nth-child(5){padding-right: 0px;}
+.bread_product1 li span{font-size: 19px; color: #583C31;}
+
+.bread_product1 li:hover img{transform: scale(1.1,1.1) rotate(10deg);}
+.bread_product1 li:hover span{color: #583c3182;}
+
+.bread_product2{width: 1320px; height: 300px; padding: 0px 20px; box-sizing: border-box; padding-top: 40px;}
+.bread_product2 li{float: left; width: 190px; height: 240px; text-align: center; padding-right: 81px;}
+.bread_product2 li:nth-child(5){padding-right: 0px;}
+.bread_product2 li span{font-size: 19px; color: #583C31;}
+
+.bread_product2 li:hover img{transform: scale(1.1,1.1) rotate(10deg);}
+.bread_product2 li:hover span{color: #583c3193;}
+
+
+/*dessert s*/
+.dessert{width: 1320px; margin: 0 auto; margin-top: 120px;}
+.dessert_banner{width: 1320px; height: 269px; background: url(../images/dessert.jpg) no-repeat center top; padding: 60px; box-sizing: border-box; color: #583C31;}
+.dessert_banner h1{font-size: 55px; text-align: left; padding:20px 0px 45px;}
+.dessert_banner p{font-size: 22px; text-align: left;}
+
+.morebtn{width: 100%; height: 60px; padding: 15px; box-sizing: border-box; text-align: right;}
+
+.dessert_product{width: 1320px; height: 300px; padding: 0px 20px; box-sizing: border-box; padding-top: 50px;}
+.dessert_product li{float: left; width: 190px; height: 240px; text-align: center; padding-right: 81px;}
+.dessert_product li:nth-child(5){padding-right: 0px;}
+.dessert_product li span{font-size: 19px; color: #583C31;}
+
+.dessert_product li:hover img{transform: scale(1.1,1.1) rotate(-10deg);}
+.dessert_product li:hover span{color: #583c3193;}
+
+
+/*coffee s*/
+.coffee{width: 1320px; margin: 0 auto; margin-top: 120px;}
+.coffee_banner{width: 1320px; height: 269px; background: url(../images/coffee.jpg) no-repeat center top; padding: 60px; box-sizing: border-box; color: #583C31;}
+.coffee_banner h1{font-size: 55px; text-align: left; padding:20px 0px 45px;}
+.coffee_banner p{font-size: 22px; text-align: left;}
+
+.morebtn{width: 100%; height: 60px; padding: 15px; box-sizing: border-box; text-align: right;}
+
+.coffee_product{width: 1320px; height: 300px; padding: 0px 20px; box-sizing: border-box; padding-top: 50px;}
+.coffee_product li{float: left; width: 190px; height: 240px; text-align: center; padding-right: 81px;}
+.coffee_product li:nth-child(5){padding-right: 0px;}
+.coffee_product li span{font-size: 19px; color: #583C31;}
+
+.coffee_product li:hover img{transform: scale(1.1,1.1) rotate(10deg);}
+.coffee_product li:hover span{color: #583c3193;}
+
+
+
+/*coffee s*/
+.beverage{width: 1320px; margin: 0 auto; margin-top: 120px;}
+.beverage_banner{width: 1320px; height: 269px; background: url(../images/beverage.jpg) no-repeat center top; padding: 60px; box-sizing: border-box; color: #583C31;}
+.beverage_banner h1{font-size: 55px; text-align: left; padding:20px 0px 45px;}
+.beverage_banner p{font-size: 22px; text-align: left;}
+
+.morebtn{width: 100%; height: 60px; padding: 15px; box-sizing: border-box; text-align: right;}
+
+.beverage_product{width: 1320px; height: 300px; padding: 0px 20px; box-sizing: border-box; padding-top: 50px;}
+.beverage_product li{float: left; width: 190px; height: 240px; text-align: center; padding-right: 81px;}
+.beverage_product li:nth-child(5){padding-right: 0px;}
+.beverage_product li span{font-size: 19px; color: #583C31;}
+
+.beverage_product li:hover img{transform: scale(1.1,1.1) rotate(-10deg);}
+.beverage_product li:hover span{color: #583c3193;}
+
+
+
+
+
+
+
+
+/*footer s*/
+
+#footer{width: 100%; height: 330px; background-color: #583C31;}
+.footer_inner{width: 1320px; height: 100%; margin: 0 auto;}
+
+.list1{float: left; height: 100px; width: 900px;}
+.list1 li{float: left; height: 40px; margin-top: 39px;}
+.list1 li a{padding: 0px 18px; color: #F0E4CF; font-size: 15px; border-right: 1px solid #f0e4cf8c;}
+.list1 li:first-child a{padding-left: 0px;}
+.list1 li:nth-child(2) a{color: #fd9166;}
+.list1 li:last-child a{border-right: none;}
+.list1 li:hover a{color: #F0C599;}
+
+.list2{float: right; height: 100px; width: 174px;}
+.list2 li{float: left; height: 40px; margin-top: 45px;}
+.list2 li a{display: block; margin-left: 25px; width: 40px; height: 40px;}
+.list2 li:nth-child(1) a{margin-top: 4px; margin-right: 2px;}
+.list2 li:nth-child(2) a{margin-top: 1px;}
+.list2 li:nth-child(3) a{margin-left: 30px; width: 12px;}
+
+
+.list3{float: left;  margin-top: 25px; font-size: 14px; color: #F0E4CF;}
+
+
+.list4{float: right; text-align: right; color: #F0E4CF; margin-top: 10px;}
+.list4 li:nth-child(1){font-size: 19px;}
+.list4 li:nth-child(2){font-size: 27px; text-decoration: underline; margin-top: 5px;}
+.list4 li:nth-child(3){font-size: 14px; margin-top: 10px;}
+.list4 li:nth-child(4){font-size: 14px;}
