@@ -23,22 +23,23 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 .header_inner{width: 1320px; height: 100%; margin: 0 auto; text-align: center; position: relative;}
 .nav{height: 100%; position: absolute; left: 50%; margin-left: -544.315px; font-size: 20px;}
 .nav li{float: left;}
-.nav li a{display: block; padding: 30px 90px;}
+.nav li a{display: block; padding: 30px 80px; color: #F0E4CF;}
 .nav li:first-child a{padding: 30px 90px 30px 0px;}
 .nav li:last-child a{padding: 30px 0px 30px 90px;}
-.nav li:nth-child(3) a{padding: 12px 75px;}
+.nav li:nth-child(3) a{padding: 12px 85px 12px 74px;}
 .nav li a:hover{color: #F0C599;}
 
 
 /*banner*/
 
-#banner{width: 100%; height: 510px; background: gray;}
+#banner{width: 100%; height: 510px; background: url(../images/banner.jpg) no-repeat center top; position: relative;}
+#banner>span{width: 150.75px; height: 40px; color: #f0e4cf; font-size: 45px; position: absolute; top: 50%; left: 50%;  margin: -20px 0 0 -75.375px; font-family: 'GowunBatang-Regular'; text-shadow: 10px 10px 10px #583C31;}
 
 
 /*contents*/
 #contents{width: 100%; height: 3700px; background: url(../images/main-bg.jpg) no-repeat center top;}
 
-.title{text-align: center; padding-top: 150px; padding-bottom: 150px; color: #583C31; font-size: 30px;}
+.title{text-align: center; padding-top: 50px; padding-bottom: 150px; color: #583C31; font-size: 30px;}
 
 .morebtn{font-size: 18px;}
 .morebtn a{color: #583C31;}
@@ -146,6 +147,8 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 .list2 li:nth-child(1) a{margin-top: 4px; margin-right: 2px;}
 .list2 li:nth-child(2) a{margin-top: 1px;}
 .list2 li:nth-child(3) a{margin-left: 30px; width: 12px;}
+
+.list2 li:hover img{opacity: 0.5;}
 
 
 .list3{float: left;  margin-top: 25px; font-size: 14px; color: #F0E4CF;}
